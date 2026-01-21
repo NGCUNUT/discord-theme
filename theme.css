@@ -1,0 +1,24 @@
+/**
+ * @name My Discord Theme
+ * @author NGCUNUT
+ * @description Custom background theme for Vencord
+ */
+
+.appMount-2yBXZl {
+    background-image: url("https://raw.githubusercontent.com/NGCUNUT/discord-theme/main/EKd1750827517850-640-0.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* 내부 배경 투명화 */
+.app-2CXKsg,
+.bg-1QIAus,
+.layer-86YKbF {
+    background: transparent !important;
+}
+
+/* 채팅 영역 가독성 */
+.scrollerInner-2PPAp2 {
+    background-color: rgba(0, 0, 0, 0.45) !important;
+}
